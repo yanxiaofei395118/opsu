@@ -1,5 +1,4 @@
-# FROM opsu/tomcat:9.0.20-jre8-slim
-FROM tomcat:9.0.27-jdk8
+FROM opsu/tomcat:9.0.27-jdk8-chs
 
 MAINTAINER yxf521@gmail.com
 
@@ -16,4 +15,4 @@ RUN wget http://192.168.119.1/pdice/pdi-ce-8.3.0.0-371.zip \
     && unzip pdi-ce-8.3.0.0-371.zip && rm -rf pdi-ce-8.3.0.0-371.zip\
     && cp -r data-integration/system/ data-integration/simple-jndi/ .
 
-# docker build -t opsu/kettle-scheduler:1.0 .
+# docker build -t opsu/kettle-scheduler:1.1 .
