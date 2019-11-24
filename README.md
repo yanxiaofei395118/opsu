@@ -1,4 +1,4 @@
 # opsu dokerfile config
 ## tomcat
-tomcat 简体中文配置（GMT+8，中文输出）
+tomcat 绠�浣撲腑鏂囬厤缃紙GMT+8锛屼腑鏂囪緭鍑猴級
 
