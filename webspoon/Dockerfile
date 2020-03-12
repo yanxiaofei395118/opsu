@@ -1,4 +1,4 @@
-FROM hiromuhota/webspoon
+FROM hiromuhota/webspoon:0.8.3.20
 
 MAINTAINER yxf521@gmail.com
 
